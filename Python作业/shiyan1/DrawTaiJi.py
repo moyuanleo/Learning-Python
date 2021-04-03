@@ -1,11 +1,3 @@
-'''
-Author: your name
-Date: 2021-03-09 19:10:08
-LastEditTime: 2021-03-09 19:22:21
-LastEditors: Please set LastEditors
-Description: In User Settings Edit
-FilePath: \Learning Python\shiyan1\DrawTaiJI.py
-'''
 from turtle import*
 def yin(radius,color1,color2):
     width(3)

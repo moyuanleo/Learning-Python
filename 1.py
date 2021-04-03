@@ -1,0 +1,8 @@
+banji=input("请输入班级：")
+xingming=input("请输入姓名：")
+xuehao=eval(input("请输入学号："))
+a,b=eval(input("请输入两个整数："))
+print("我的班级是：",banji)
+print("我的姓名：",xingming)
+print("我的学号是：",xuehao)
+print(a,"+",b,"=",a+b)
