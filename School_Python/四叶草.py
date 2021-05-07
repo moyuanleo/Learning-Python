@@ -1,0 +1,23 @@
+from turtle import *
+color('black','green')
+begin_fill()
+left(90)
+for i in range(4):
+    pendown()
+    fd(60)
+    right(180)
+    circle(30, -180)
+    left(90)
+    circle(30, -180)
+    right(180)
+    penup()
+    fd(60)
+end_fill()
+pendown()
+left(180)
+fd(60)
+pensize(6)
+pencolor('green')
+for i in range(20):
+    circle(-200, 3)   
+end_fill()
