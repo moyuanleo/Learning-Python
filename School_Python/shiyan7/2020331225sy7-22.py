@@ -1,0 +1,12 @@
+set_highjump={'李朋','王宇','张锁','刘松山','白旭','李晓亮'}
+set_longjump={'王宇','唐英','刘松山','白旭','刘小雨','宁成'}
+all_student=set_highjump|set_longjump
+print("参加比赛的所有学生:{}".format(all_student))
+twoOfThen=set_highjump&set_longjump
+print("两项比赛都参加的学生:{}".format(twoOfThen))
+only_highjump=set_highjump-twoOfThen
+print("仅参加跳高的学生:{}".format(only_highjump))
+only_longjump=set_longjump-twoOfThen
+print("仅参加跳远的学生:{}".format(only_longjump))
+only_one=all_student-twoOfThen
+print("仅参加一项比赛的学生:{}".format(only_one))
